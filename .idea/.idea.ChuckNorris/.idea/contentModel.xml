@@ -52,7 +52,17 @@
             <e p="node" t="IncludeRecursive" />
             <e p="source-list-map" t="IncludeRecursive" />
           </e>
+          <e p="node_modules\@wry\context" t="IncludeRecursive" />
+          <e p="node_modules\@wry\equality" t="IncludeRecursive" />
           <e p="node_modules\ajv" t="IncludeRecursive" />
+          <e p="node_modules\apollo-angular" t="IncludeRecursive" />
+          <e p="node_modules\apollo-angular-link-http" t="IncludeRecursive" />
+          <e p="node_modules\apollo-angular-link-http-common" t="IncludeRecursive" />
+          <e p="node_modules\apollo-cache" t="IncludeRecursive" />
+          <e p="node_modules\apollo-cache-inmemory" t="IncludeRecursive" />
+          <e p="node_modules\apollo-client" t="IncludeRecursive" />
+          <e p="node_modules\apollo-link" t="IncludeRecursive" />
+          <e p="node_modules\apollo-utilities" t="IncludeRecursive" />
           <e p="node_modules\arg" t="IncludeRecursive" />
           <e p="node_modules\aspnet-prerendering" t="IncludeRecursive" />
           <e p="node_modules\blocking-proxy" t="IncludeRecursive" />
@@ -68,7 +78,10 @@
           <e p="node_modules\es6-promise" t="IncludeRecursive" />
           <e p="node_modules\fast-deep-equal" t="IncludeRecursive" />
           <e p="node_modules\fast-json-stable-stringify" t="IncludeRecursive" />
+          <e p="node_modules\GraphQL" t="IncludeRecursive" />
+          <e p="node_modules\graphql-tag" t="IncludeRecursive" />
           <e p="node_modules\hammerjs" t="IncludeRecursive" />
+          <e p="node_modules\iterall" t="IncludeRecursive" />
           <e p="node_modules\jasmine-core" t="IncludeRecursive" />
           <e p="node_modules\jasmine-spec-reporter" t="IncludeRecursive" />
           <e p="node_modules\jest-worker" t="IncludeRecursive" />
@@ -82,6 +95,7 @@
           <e p="node_modules\magic-string" t="IncludeRecursive" />
           <e p="node_modules\node-sass" t="IncludeRecursive" />
           <e p="node_modules\oidc-client" t="IncludeRecursive" />
+          <e p="node_modules\optimism" t="IncludeRecursive" />
           <e p="node_modules\popper.js" t="IncludeRecursive" />
           <e p="node_modules\portfinder" t="IncludeRecursive" />
           <e p="node_modules\postcss" t="IncludeRecursive" />
@@ -93,6 +107,7 @@
           <e p="node_modules\symbol-observable" t="IncludeRecursive" />
           <e p="node_modules\terser" t="IncludeRecursive" />
           <e p="node_modules\tree-kill" t="IncludeRecursive" />
+          <e p="node_modules\ts-invariant" t="IncludeRecursive" />
           <e p="node_modules\ts-node" t="IncludeRecursive" />
           <e p="node_modules\tslib" t="IncludeRecursive" />
           <e p="node_modules\tslint" t="IncludeRecursive" />
@@ -100,6 +115,7 @@
           <e p="node_modules\uri-js" t="IncludeRecursive" />
           <e p="node_modules\webdriver-js-extender" t="IncludeRecursive" />
           <e p="node_modules\worker-farm" t="IncludeRecursive" />
+          <e p="node_modules\zen-observable-ts" t="IncludeRecursive" />
           <e p="node_modules\zone.js" t="IncludeRecursive" />
           <e p="package-lock.json" t="Include" />
           <e p="package.json" t="Include" />
@@ -116,10 +132,20 @@
                 <e p="footer.component.spec.ts" t="Include" />
                 <e p="footer.component.ts" t="Include" />
               </e>
+              <e p="graphql.module.ts" t="Include" />
               <e p="home" t="Include">
                 <e p="home.component.html" t="Include" />
                 <e p="home.component.spec.ts" t="Include" />
                 <e p="home.component.ts" t="Include" />
+              </e>
+              <e p="interfaces" t="Include">
+                <e p="jokedata.ts" t="Include" />
+              </e>
+              <e p="joke" t="Include">
+                <e p="joke.component.css" t="Include" />
+                <e p="joke.component.html" t="Include" />
+                <e p="joke.component.spec.ts" t="Include" />
+                <e p="joke.component.ts" t="Include" />
               </e>
               <e p="nav-menu" t="Include">
                 <e p="nav-menu.component.css" t="Include" />

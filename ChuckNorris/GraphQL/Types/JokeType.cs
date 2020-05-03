@@ -5,6 +5,9 @@ namespace ChuckNorris.GraphQL.Types
 {
     public class JokeType : ObjectGraphType<Joke>
     {
+        /// <summary>
+        /// Constructor
+        /// </summary>
         public JokeType()
         {
             Field(i => i.Categories);

@@ -1,0 +1,11 @@
+<h1 mat-dialog-title>{{Category | titlecase}} Joke </h1>
+<div mat-dialog-content>
+
+  <div class="container" *ngIf="Joke; then joketrue else jokefalse"></div>
+
+  <ng-template #joketrue><p id="joke">{{Joke | titlecase}}</p></ng-template>
+  <ng-template #jokefalse><mat-spinner></mat-spinner></ng-template>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onCancel()" id="close">Close</button>
+</div>

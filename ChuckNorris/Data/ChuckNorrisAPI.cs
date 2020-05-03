@@ -10,11 +10,19 @@ namespace ChuckNorris.Data
     {
         private readonly RestClient _client;
 
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="configuration"></param>
         public ChuckNorrisApi(IConfiguration configuration)
         {
             _client = new RestClient(configuration["ChuckNorrisEndPoint"]);
         }
 
+        /// <summary>
+        /// Get Categories
+        /// </summary>
+        /// <returns></returns>
         public List<string> GetCategories()
         {
             RestRequest request = new RestRequest("categories", Method.GET);
@@ -24,6 +32,11 @@ namespace ChuckNorris.Data
             return response.StatusCode == HttpStatusCode.OK ? response.Data : new List<string>();
         }
 
+        /// <summary>
+        /// Get Joke
+        /// </summary>
+        /// <param name="category"></param>
+        /// <returns></returns>
         public Joke GetJoke(string category)
         {
             RestRequest request = new RestRequest("random", Method.GET);

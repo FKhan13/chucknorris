@@ -1,6 +1,6 @@
 <mat-action-list>
   <h2 matSubheader>Click a category to see a random joke: </h2>
-  <mat-list-item *ngFor="let category of categories" [id]="category"
+  <mat-list-item *ngFor="let category of categories" (click)="catOnClick(category)" [id]="category"
   >{{category | uppercase}}</mat-list-item>
   <mat-divider></mat-divider>
 </mat-action-list>

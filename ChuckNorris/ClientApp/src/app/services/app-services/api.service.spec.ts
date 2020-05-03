@@ -12,7 +12,7 @@ describe("ApiService", () => {
     ]
   }));
 
-  it("should be created", () => {
+  it("should create", () => {
     const service: ApiService = TestBed.get(ApiService);
     expect(service).toBeTruthy();
   });

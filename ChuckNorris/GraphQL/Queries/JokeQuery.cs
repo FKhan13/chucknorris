@@ -8,6 +8,10 @@ namespace ChuckNorris.GraphQL.Queries
 {
     public class JokeQuery : ObjectGraphType
     {
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="repository"></param>
         public JokeQuery(ChuckNorrisRepository repository)
         {
             Field<JokeType>("joke",
