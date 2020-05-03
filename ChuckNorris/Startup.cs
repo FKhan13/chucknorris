@@ -1,4 +1,8 @@
 using ChuckNorris.Data;
+using ChuckNorris.GraphQL.Schemas;
+using GraphQL;
+using GraphQL.Server;
+using GraphQL.Server.Ui.Playground;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -39,6 +43,17 @@ namespace ChuckNorris
 
             services.AddScoped(typeof(ChuckNorrisApi));
             services.AddTransient(typeof(ChuckNorrisRepository));
+
+            services.AddScoped<IDependencyResolver>(x =>
+                new FuncDependencyResolver(x.GetRequiredService));
+
+            services.AddScoped<JokeSchema>();
+
+            services.AddGraphQL(x =>
+                {
+                    x.ExposeExceptions = true; //set true only in development mode. make it switchable.
+                })
+                .AddGraphTypes(ServiceLifetime.Scoped);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -61,6 +76,9 @@ namespace ChuckNorris
             {
                 app.UseSpaStaticFiles();
             }
+
+            app.UseGraphQL<JokeSchema>();
+            app.UseGraphQLPlayground(new GraphQLPlaygroundOptions()); //to explore API navigate https://*DOMAIN*/ui/playground
 
             app.UseRouting();
 

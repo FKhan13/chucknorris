@@ -11,29 +11,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6b0b57a-4584-4241-a086-e4f82eca52cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ChuckNorris/Controllers/ChuckNorrisController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChuckNorris/Data/ChuckNorrisAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChuckNorris/Data/ChuckNorrisRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChuckNorris/Models/Joke.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/home/home.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/services/app-services/api.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/services/app-services/api.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChuckNorris/GraphQL/Queries/JokeQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChuckNorris/GraphQL/Schemas/JokeSchema.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChuckNorris/GraphQL/Types/JokeType.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ChuckNorris/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ChuckNorris/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ChuckNorris/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ChuckNorris/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChuckNorris/ChuckNorris.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ChuckNorris/ChuckNorris.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChuckNorris/ClientApp/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/ChuckNorris/ClientApp/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChuckNorris/ClientApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ChuckNorris/ClientApp/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChuckNorris/ClientApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ChuckNorris/ClientApp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/nav-menu/nav-menu.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/nav-menu/nav-menu.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/nav-menu/nav-menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/nav-menu/nav-menu.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/nav-menu/nav-menu.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/nav-menu/nav-menu.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChuckNorris/ClientApp/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ChuckNorris/ClientApp/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChuckNorris/ClientApp/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ChuckNorris/ClientApp/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChuckNorris/ClientApp/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/ChuckNorris/ClientApp/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChuckNorris/Controllers/ChuckNorrisController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChuckNorris/Controllers/ChuckNorrisController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ChuckNorris/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChuckNorris/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChuckNorris/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ChuckNorris/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/ChuckNorris/ClientApp/src/tslint.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ChuckNorris/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChuckNorris/ClientApp/package.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ChuckNorris/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ChuckNorris/Controllers/ChuckNorrisController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChuckNorris/GraphQL/Queries/JokeQuery.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChuckNorris/GraphQL/Schemas/JokeSchema.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChuckNorris/GraphQL/Types/JokeType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChuckNorris/ClientApp/src/tslint.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChuckNorris/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ChuckNorris/Models/Joke.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ChuckNorris/Data/ChuckNorrisAPI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ChuckNorris/appsettings.json" root0="FORCE_HIGHLIGHTING" />
@@ -45,13 +70,30 @@
       <list>
         <option value="$PROJECT_DIR$/ChuckNorris/ClientApp/src/tslint.json" />
         <option value="$PROJECT_DIR$/ChuckNorris/ClientApp/tslint.json" />
-        <option value="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/ChuckNorris/appsettings.json" />
         <option value="$PROJECT_DIR$/ChuckNorris/Data/ChuckNorrisAPI.cs" />
         <option value="$PROJECT_DIR$/ChuckNorris/Models/Joke.cs" />
         <option value="$PROJECT_DIR$/ChuckNorris/Data/ChuckNorrisRepository.cs" />
+        <option value="$PROJECT_DIR$/ChuckNorris/GraphQL/Types/JokeType.cs" />
+        <option value="$PROJECT_DIR$/ChuckNorris/GraphQL/Schemas/JokeSchema.cs" />
+        <option value="$PROJECT_DIR$/ChuckNorris/GraphQL/Queries/JokeQuery.cs" />
         <option value="$PROJECT_DIR$/ChuckNorris/Startup.cs" />
+        <option value="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/services/app-services/api-service.ts" />
+        <option value="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/services/app-services/api-service.spec.ts" />
+        <option value="$PROJECT_DIR$/ChuckNorris/ClientApp/src/main.ts" />
+        <option value="$PROJECT_DIR$/ChuckNorris/ClientApp/src/styles.css" />
+        <option value="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/services/app-services/api.service.spec.ts" />
+        <option value="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/home/home.component.ts" />
+        <option value="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/home/home.component.spec.ts" />
+        <option value="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/services/app-services/api.service.ts" />
         <option value="$PROJECT_DIR$/ChuckNorris/Controllers/ChuckNorrisController.cs" />
+        <option value="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/home/home.component.html" />
+        <option value="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/ChuckNorris/ClientApp/src/index.html" />
+        <option value="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/nav-menu/nav-menu.component.html" />
+        <option value="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/nav-menu/nav-menu.component.ts" />
+        <option value="$PROJECT_DIR$/ChuckNorris/ClientApp/src/app/nav-menu/nav-menu.component.css" />
       </list>
     </option>
   </component>
@@ -64,7 +106,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3498452" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.3003096" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -120,7 +165,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588496614062</updated>
-      <workItem from="1588496625377" duration="2512000" />
+      <workItem from="1588496625377" duration="5115000" />
     </task>
     <servers />
   </component>
@@ -141,6 +186,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -148,25 +194,108 @@
       <screen x="-1366" y="69" width="1366" height="768" />
     </state>
     <state x="-1107" y="98" key="#Inspection_severity/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1588500222182" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1588500142694">
+    <state width="1323" height="265" key="GridCell.Tab.0.bottom" timestamp="1588504585318">
       <screen x="-1366" y="69" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1588500142694" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1588500142694">
+    <state width="1323" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1588504585318" />
+    <state width="1323" height="265" key="GridCell.Tab.0.center" timestamp="1588504585318">
       <screen x="-1366" y="69" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1588500142694" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1588500142694">
+    <state width="1323" height="265" key="GridCell.Tab.0.center/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1588504585318" />
+    <state width="1323" height="265" key="GridCell.Tab.0.left" timestamp="1588504585318">
       <screen x="-1366" y="69" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1588500142694" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1588500142694">
+    <state width="1323" height="265" key="GridCell.Tab.0.left/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1588504585318" />
+    <state width="1323" height="265" key="GridCell.Tab.0.right" timestamp="1588504585318">
       <screen x="-1366" y="69" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1588500142694" />
+    <state width="1323" height="265" key="GridCell.Tab.0.right/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1588504585318" />
+    <state width="1323" height="265" key="GridCell.Tab.1.bottom" timestamp="1588504585318">
+      <screen x="-1366" y="69" width="1366" height="768" />
+    </state>
+    <state width="1323" height="265" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1588504585318" />
+    <state width="1323" height="265" key="GridCell.Tab.1.center" timestamp="1588504585318">
+      <screen x="-1366" y="69" width="1366" height="768" />
+    </state>
+    <state width="1323" height="265" key="GridCell.Tab.1.center/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1588504585318" />
+    <state width="1323" height="265" key="GridCell.Tab.1.left" timestamp="1588504585318">
+      <screen x="-1366" y="69" width="1366" height="768" />
+    </state>
+    <state width="1323" height="265" key="GridCell.Tab.1.left/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1588504585318" />
+    <state width="1323" height="265" key="GridCell.Tab.1.right" timestamp="1588504585318">
+      <screen x="-1366" y="69" width="1366" height="768" />
+    </state>
+    <state width="1323" height="265" key="GridCell.Tab.1.right/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1588504585318" />
+    <state width="1323" height="265" key="GridCell.Tab.2.bottom" timestamp="1588504585320">
+      <screen x="-1366" y="69" width="1366" height="768" />
+    </state>
+    <state width="1323" height="265" key="GridCell.Tab.2.bottom/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1588504585320" />
+    <state width="1323" height="265" key="GridCell.Tab.2.center" timestamp="1588504585318">
+      <screen x="-1366" y="69" width="1366" height="768" />
+    </state>
+    <state width="1323" height="265" key="GridCell.Tab.2.center/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1588504585318" />
+    <state width="1323" height="265" key="GridCell.Tab.2.left" timestamp="1588504585318">
+      <screen x="-1366" y="69" width="1366" height="768" />
+    </state>
+    <state width="1323" height="265" key="GridCell.Tab.2.left/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1588504585318" />
+    <state width="1323" height="265" key="GridCell.Tab.2.right" timestamp="1588504585320">
+      <screen x="-1366" y="69" width="1366" height="768" />
+    </state>
+    <state width="1323" height="265" key="GridCell.Tab.2.right/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1588504585320" />
+    <state width="1323" height="265" key="GridCell.Tab.3.bottom" timestamp="1588504585320">
+      <screen x="-1366" y="69" width="1366" height="768" />
+    </state>
+    <state width="1323" height="265" key="GridCell.Tab.3.bottom/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1588504585320" />
+    <state width="1323" height="265" key="GridCell.Tab.3.center" timestamp="1588504585320">
+      <screen x="-1366" y="69" width="1366" height="768" />
+    </state>
+    <state width="1323" height="265" key="GridCell.Tab.3.center/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1588504585320" />
+    <state width="1323" height="265" key="GridCell.Tab.3.left" timestamp="1588504585320">
+      <screen x="-1366" y="69" width="1366" height="768" />
+    </state>
+    <state width="1323" height="265" key="GridCell.Tab.3.left/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1588504585320" />
+    <state width="1323" height="265" key="GridCell.Tab.3.right" timestamp="1588504585320">
+      <screen x="-1366" y="69" width="1366" height="768" />
+    </state>
+    <state width="1323" height="265" key="GridCell.Tab.3.right/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1588504585320" />
+    <state width="1323" height="265" key="GridCell.Tab.4.bottom" timestamp="1588504585320">
+      <screen x="-1366" y="69" width="1366" height="768" />
+    </state>
+    <state width="1323" height="265" key="GridCell.Tab.4.bottom/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1588504585320" />
+    <state width="1323" height="265" key="GridCell.Tab.4.center" timestamp="1588504585320">
+      <screen x="-1366" y="69" width="1366" height="768" />
+    </state>
+    <state width="1323" height="265" key="GridCell.Tab.4.center/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1588504585320" />
+    <state width="1323" height="265" key="GridCell.Tab.4.left" timestamp="1588504585320">
+      <screen x="-1366" y="69" width="1366" height="768" />
+    </state>
+    <state width="1323" height="265" key="GridCell.Tab.4.left/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1588504585320" />
+    <state width="1323" height="265" key="GridCell.Tab.4.right" timestamp="1588504585320">
+      <screen x="-1366" y="69" width="1366" height="768" />
+    </state>
+    <state width="1323" height="265" key="GridCell.Tab.4.right/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1588504585320" />
     <state x="-1020" y="158" width="672" height="678" key="search.everywhere.popup" timestamp="1588501215257">
       <screen x="-1366" y="69" width="1366" height="768" />
     </state>
     <state x="-1020" y="158" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1588501215257" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ChuckNorris/GraphQL/Schemas/JokeSchema.cs</url>
+          <line>10</line>
+          <properties documentPath="$PROJECT_DIR$/ChuckNorris/GraphQL/Schemas/JokeSchema.cs" initialLine="10">
+            <startOffsets>
+              <option value="270" />
+            </startOffsets>
+            <endOffsets>
+              <option value="318" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

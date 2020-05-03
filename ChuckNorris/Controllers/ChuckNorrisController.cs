@@ -30,16 +30,5 @@ namespace ChuckNorris.Controllers
         {
             return _repo.GetCategories();
         }
-
-        /// <summary>
-        /// TODO: Remove later
-        /// </summary>
-        /// <returns></returns>
-        [HttpGet]
-        public JsonResult TestGetJoke()
-        {
-            List<string> cats = _repo.GetCategories().ToList();
-            return Json(_repo.GetJoke(cats[new Random().Next(0, cats.Count)]));
-        }
     }
 }

@@ -24,12 +24,14 @@
             <e p="tsconfig.e2e.json" t="Include" />
           </e>
           <e p="node_modules\@angular\animations" t="IncludeRecursive" />
+          <e p="node_modules\@angular\cdk" t="IncludeRecursive" />
           <e p="node_modules\@angular\cli" t="IncludeRecursive" />
           <e p="node_modules\@angular\common" t="IncludeRecursive" />
           <e p="node_modules\@angular\compiler" t="IncludeRecursive" />
           <e p="node_modules\@angular\compiler-cli" t="IncludeRecursive" />
           <e p="node_modules\@angular\core" t="IncludeRecursive" />
           <e p="node_modules\@angular\forms" t="IncludeRecursive" />
+          <e p="node_modules\@angular\material" t="IncludeRecursive" />
           <e p="node_modules\@angular\platform-browser" t="IncludeRecursive" />
           <e p="node_modules\@angular\platform-browser-dynamic" t="IncludeRecursive" />
           <e p="node_modules\@angular\platform-server" t="IncludeRecursive" />
@@ -66,6 +68,7 @@
           <e p="node_modules\es6-promise" t="IncludeRecursive" />
           <e p="node_modules\fast-deep-equal" t="IncludeRecursive" />
           <e p="node_modules\fast-json-stable-stringify" t="IncludeRecursive" />
+          <e p="node_modules\hammerjs" t="IncludeRecursive" />
           <e p="node_modules\jasmine-core" t="IncludeRecursive" />
           <e p="node_modules\jasmine-spec-reporter" t="IncludeRecursive" />
           <e p="node_modules\jest-worker" t="IncludeRecursive" />
@@ -107,14 +110,27 @@
               <e p="app.component.ts" t="Include" />
               <e p="app.module.ts" t="Include" />
               <e p="app.server.module.ts" t="Include" />
+              <e p="footer" t="Include">
+                <e p="footer.component.css" t="Include" />
+                <e p="footer.component.html" t="Include" />
+                <e p="footer.component.spec.ts" t="Include" />
+                <e p="footer.component.ts" t="Include" />
+              </e>
               <e p="home" t="Include">
                 <e p="home.component.html" t="Include" />
+                <e p="home.component.spec.ts" t="Include" />
                 <e p="home.component.ts" t="Include" />
               </e>
               <e p="nav-menu" t="Include">
                 <e p="nav-menu.component.css" t="Include" />
                 <e p="nav-menu.component.html" t="Include" />
                 <e p="nav-menu.component.ts" t="Include" />
+              </e>
+              <e p="services" t="Include">
+                <e p="app-services" t="Include">
+                  <e p="api.service.spec.ts" t="Include" />
+                  <e p="api.service.ts" t="Include" />
+                </e>
               </e>
             </e>
             <e p="assets" t="Include">
@@ -144,6 +160,17 @@
         <e p="Data" t="Include">
           <e p="ChuckNorrisAPI.cs" t="Include" />
           <e p="ChuckNorrisRepository.cs" t="Include" />
+        </e>
+        <e p="GraphQL" t="Include">
+          <e p="Queries" t="Include">
+            <e p="JokeQuery.cs" t="Include" />
+          </e>
+          <e p="Schemas" t="Include">
+            <e p="JokeSchema.cs" t="Include" />
+          </e>
+          <e p="Types" t="Include">
+            <e p="JokeType.cs" t="Include" />
+          </e>
         </e>
         <e p="Models" t="Include">
           <e p="Joke.cs" t="Include" />
