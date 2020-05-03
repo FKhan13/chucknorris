@@ -4,6 +4,7 @@
     <e p="C:\Users\faiya\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
     <e p="C:\Users\faiya\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_ChuckNorris.-684760460.00" t="ExcludeRecursive" />
     <e p="C:\Users\faiya\Desktop\Chuck Norris\ChuckNorris" t="IncludeFlat">
+      <e p=".dockerignore" t="Include" />
       <e p="ChuckNorris" t="IncludeRecursive">
         <e p=".gitignore" t="Include" />
         <e p="appsettings.Development.json" t="Include" />
@@ -187,6 +188,7 @@
           <e p="ChuckNorrisAPI.cs" t="Include" />
           <e p="ChuckNorrisRepository.cs" t="Include" />
         </e>
+        <e p="Dockerfile" t="Include" />
         <e p="GraphQL" t="Include">
           <e p="Queries" t="Include">
             <e p="JokeQuery.cs" t="Include" />
